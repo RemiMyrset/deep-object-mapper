@@ -1,19 +1,23 @@
 {
   "name": "deep-object-mapper",
   "version": "0.0.1",
+  "author": "Myrset",
+  "license": "MIT",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "type": "module",
+  "keywords": [
+    "typescript",
+    "deep",
+    "object",
+    "mapper"
+  ],
   "scripts": {
     "build": "tsup src/index.ts",
     "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.21"
   },
