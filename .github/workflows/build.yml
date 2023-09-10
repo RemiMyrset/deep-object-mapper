@@ -19,3 +19,6 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
       - run: pnpm run lint && pnpm run build
+
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v2
