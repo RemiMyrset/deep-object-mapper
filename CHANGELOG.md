@@ -1,5 +1,11 @@
 # deep-object-mapper
 
+## 1.0.1
+
+### Patch Changes
+
+- 011f7fa: Package.json needed an edit
+
 ## 1.0.0
 
 ### Major Changes
