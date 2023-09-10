@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "author": "Myrset",
   "license": "MIT",
-  "description": "",
+  "description": "Generic Typed Deep Object Mapper",
+  "repository": "RemiMyrset/deep-object-mapper",
+  "homepage": "https://github.com/RemiMyrset/deep-object-mapper",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "keywords": [
+    "typed",
     "typescript",
+    "generic",
     "deep",
+    "recursive",
     "object",
-    "mapper"
+    "mapper",
+    "mapping"
   ],
   "scripts": {
     "build": "tsup src/index.ts",
