@@ -1,5 +1,11 @@
 # deep-object-mapper
 
+## 1.0.2
+
+### Patch Changes
+
+- 3769f70: .npmignore
+
 ## 1.0.1
 
 ### Patch Changes
