@@ -29,6 +29,22 @@ const { output } = deepMap<Lists, SuperList>({
   },
 });
 
+/** Output:
+{
+  simpleList: [ 'One', 'Two' ],
+  allLists: [
+    'Three',
+    'Four',
+    [Function (anonymous)],
+    6,
+    'Eight',
+    { nine: 9 },
+    Symbol(ten),
+    true
+  ]
+}
+ */
+
 describe("Array mapping", () => {
   it("Maps list (one-to-one)", () => {
     assert.ok(isEqual(output?.simpleList, lists.listOne));

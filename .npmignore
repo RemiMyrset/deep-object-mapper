@@ -2,4 +2,3 @@
 .changeset
 src
 tsup.config.ts
-tests

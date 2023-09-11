@@ -24,6 +24,12 @@ const { output } = deepMap<Period, Deadline>({
   },
 });
 
+/** Output:
+{ 
+  date: 2024-01-01T00:00:00.000Z 
+}
+ */
+
 describe("Date mapping", () => {
   it("Maps date", () => {
     assert.ok(output?.date instanceof Date && isEqual(period.end, output.date));
