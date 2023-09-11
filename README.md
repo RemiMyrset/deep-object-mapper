@@ -8,7 +8,7 @@
 
 # Deep Object Mapper
 
-Map different bits from an object to another
+Map different bits from one object to another
 
 Example usage:
 
