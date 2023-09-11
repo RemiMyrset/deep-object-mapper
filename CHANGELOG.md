@@ -1,5 +1,11 @@
 # deep-object-mapper
 
+## 1.0.4
+
+### Patch Changes
+
+- c5620b9: Remove tests folder from publishing
+
 ## 1.0.3
 
 ### Patch Changes
