@@ -1,5 +1,5 @@
 import { describe, it } from "node:test";
-import { deepMap } from "..";
+import { deepMap } from "../src";
 import assert from "node:assert";
 import { isEqual } from "lodash";
 
