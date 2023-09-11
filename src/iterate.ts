@@ -60,17 +60,17 @@ function iterate<Input, Output>(
     } else {
       let value: any = get(input, property);
       if (mappedKey) {
-        /**
-         * Merge arrays if multiple map keys point to the same output key
-         */
         const oldValue = get(output, mappedKey);
         if (isArray && _isArray(oldValue)) {
+          /**
+           * Since it is possible to map
+           * - Multiple objects into an object
+           * An implementation was made to allow mapping of
+           * - Multiple lists into a list
+           * (Instead of overwriting)
+           */
           value = oldValue.concat(value);
         }
-
-        /**
-         * No other merging
-         */
 
         log({
           message: `${path}:${isDate ? "Date" : isArray ? "Array" : type}`,
