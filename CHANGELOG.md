@@ -1,5 +1,12 @@
 # deep-object-mapper
 
+## 1.0.5
+
+### Patch Changes
+
+- c3b86fd: Add outputs as comments in test files
+- c3b86fd: Include tests folder as this adjusts npmjs quality from ~60 to ~100 (???)
+
 ## 1.0.4
 
 ### Patch Changes
