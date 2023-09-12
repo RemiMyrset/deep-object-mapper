@@ -9,6 +9,7 @@ function log(options?: {
 }) {
   const { message = "", context = "", verbose, error } = options || {};
   if (error) {
+    // Always show errors
     console.error(message.padEnd(40), context);
     return;
   }
