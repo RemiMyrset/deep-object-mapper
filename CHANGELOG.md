@@ -1,5 +1,13 @@
 # deep-object-mapper
 
+## 1.0.6
+
+### Patch Changes
+
+- bc8a924: Remove coverage badge
+- f0e86ad: Added bacon to readme
+- ff766ab: Remove bacon from readme
+
 ## 1.0.5
 
 ### Patch Changes
